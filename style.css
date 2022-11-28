@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  color: aliceblue;
+}
+
+.banner div {
+  margin: 30px;
+}
+
+.answers {
+}
+
+.answer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(203, 196, 196);
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.answer:hover {
+  background-color: rgb(220, 220, 116);
+}
+
+.answer:active {
+  background-color: rgb(220, 168, 116);
+}
+
+.answer div {
+  margin: 20px;
+}
+
+.startBtn {
+  background-color: rgb(219, 219, 63);
+  color: black;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}

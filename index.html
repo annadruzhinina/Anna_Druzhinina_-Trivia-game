@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia game</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div>TRIVIA</div>
+        <div>⭐️<span class="score">0</span></div>
+        <div><span class="questionCount">1</span>/10</div>
+        <div>
+          <button class="startBtn">Start</button>
+        </div>
+      </div>
+      <div id="game" class="hidden">
+        <div>
+          <h1 class="questionTitle">What is the meaning of 'cromniomancy'?</h1>
+        </div>
+        <div class="answers">
+          <div id="A" class="answer">
+            <div class="letter">(A)</div>
+            <div id="A" class="textA">Text_A</div>
+          </div>
+          <div id="B" class="answer">
+            <div class="letter">(B)</div>
+            <div id="B" class="textB">Text_B</div>
+          </div>
+          <div id="C" class="answer">
+            <div class="letter">(C)</div>
+            <div id="C" class="textC">Text_C</div>
+          </div>
+          <div id="D" class="answer">
+            <div class="letter">(D)</div>
+            <div id="D" class="textD">Text_D</div>
+          </div>
+        </div>
+      </div>
+      <div id="finishDiv" class="hidden">
+        <h1 id="finishTitle">QUIZ COMPLETE</h1>
+        <h1>Your Score:</h1>
+        <h2 id="finishScore">finishScore text</h2>
+        <button id="startNewGameBtn">Start a new Game!</button>
+      </div>
+      <div id="pickCategory">
+        <h1 id="finishTitle">Lets start game!</h1>
+        <h1>Pick your category</h1>
+
+        <button id="catoryABtn">Category A</button>
+        <button id="catoryBBtn">Category B</button>
+      </div>
+    </div>
+  </body>
+</html>
